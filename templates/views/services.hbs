@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Mental Health Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            margin-top: 100px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .service {
+            margin-bottom: 20px;
+            {{!-- padding: 5px; --}}
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+        .service h2 {
+            color: #555;
+        }
+        .service p {
+            color: #777;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+    {{>navbar}}
+
+    <div class="container">
+        <h1>Our Services</h1>
+        
+        <div class="service">
+            <h2>Counseling Sessions</h2>
+            <p>Our experienced counselors provide one-on-one counseling sessions tailored to your specific needs. Whether you're dealing with depression, anxiety, stress, or relationship issues, our counselors are here to listen and support you.</p>
+        </div>
+
+        <div class="service">
+            <h2>Support Groups</h2>
+            <p>Join one of our support groups to connect with others who understand what you're going through. Our support groups offer a safe and supportive environment where you can share your experiences, receive encouragement, and learn coping strategies.</p>
+        </div>
+
+        <div class="service">
+            <h2>Online Resources</h2>
+            <p>Access our comprehensive collection of articles, videos, and self-help tools designed to help you better understand and manage your mental health. From relaxation techniques to mindfulness exercises, our online resources cover a wide range of topics to support your well-being.</p>
+        </div>
+
+        <div class="service">
+            <h2>Therapy Sessions</h2>
+            <p>Our licensed therapists offer evidence-based therapy approaches to help you overcome your mental health challenges. Whether you prefer cognitive-behavioral therapy, dialectical behavior therapy, or other therapeutic modalities, we're here to help you find the right therapy for you.</p>
+        </div>
+
+    </div>
+</body>
+</html>
